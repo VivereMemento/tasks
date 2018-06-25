@@ -33,8 +33,7 @@ function fillSpiralMatrix(n) {
             coor[0] -= 1;
             if (coor[0] === cycle && coor[1] === cycle) {
                 cycle += 1;
-                coor[0] = cycle;
-                coor[1] = cycle;
+                coor[0] = coor[1] = cycle;
             }
         }
 
